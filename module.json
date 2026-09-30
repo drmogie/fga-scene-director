@@ -1,0 +1,37 @@
+{
+  "id": "fga-scene-director",
+  "title": "FGA Scene Director",
+  "description": "Script and stage cinematic multi-character scenes: build an ordered timeline of character entrances, dialogue lines, and exits, then play it back live with auto-targeting, closed-caption-style dialogue text, and freeform on-screen portrait staging. Companion module to FGA Character Popup (not required).",
+  "version": "2026.09.25.3",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "14"
+  },
+  "authors": [
+    {
+      "name": "Mogie"
+    }
+  ],
+  "esmodules": [
+    "scripts/main.js"
+  ],
+  "styles": [
+    "styles/scene-editor.css",
+    "styles/staging.css",
+    "styles/caption.css",
+    "styles/speech-bubble.css",
+    "styles/config.css",
+    "styles/background-effect.css"
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
+  "socket": true,
+  "url": "",
+  "manifest": "",
+  "download": ""
+}
